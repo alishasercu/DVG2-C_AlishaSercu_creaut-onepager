@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Creative Automation · Wat je leert</title>
+  <meta name="description" content="Een gids voor nieuwe studenten digitale vormgeving over het vak Creative Automation.">
+  <meta name="theme-color" content="#FBF6EF">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..500;1,9..144,300..500&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <a class="skip" href="#main">Naar de inhoud</a>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"></div>
+
+  <!-- Zwevende navigatie -->
+  <header class="nav">
+    <div class="nav__pill">
+      <a href="#top" class="nav__logo" translate="no">Creative <em>Automation</em></a>
+      <nav class="nav__links" aria-label="Hoofdstukken">
+        <a href="#beeldbewerking"><span>01</span> Beeld</a>
+        <a href="#figma"><span>02</span> Social</a>
+        <a href="#content"><span>03</span> Content</a>
+        <a href="#vibe-coding"><span>04</span> Web</a>
+        <a href="#email"><span>05</span> E-mail</a>
+      </nav>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Menu openen">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Menu voor mobiel -->
+  <div class="menu" id="menu" hidden>
+    <nav aria-label="Menu">
+      <ol>
+        <li><a href="#beeldbewerking"><span>01</span>Beeldbewerking</a></li>
+        <li><a href="#figma"><span>02</span>Social media</a></li>
+        <li><a href="#content"><span>03</span>Content generatie</a></li>
+        <li><a href="#vibe-coding"><span>04</span>Vibe coding &amp; web</a></li>
+        <li><a href="#email"><span>05</span>E-mailmarketing</a></li>
+      </ol>
+    </nav>
+  </div>
+
+  <main id="main">
+
+    <!-- INTRO -->
+    <section class="hero wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero__orb hero__orb--a" aria-hidden="true"></div>
+      <div class="hero__orb hero__orb--b" aria-hidden="true"></div>
+
+      <p class="eyebrow reveal">Digitale vormgeving · Gids voor nieuwe studenten</p>
+
+      <h1 id="hero-title" class="hero__title">
+        <span class="line"><span class="reveal-up">Creative</span></span>
+        <span class="line"><em class="reveal-up">Automation</em></span>
+      </h1>
+
+      <div class="hero__grid">
+        <p class="lead reveal">Creative Automation leert je hoe je als digitale vormgever repetitief werk automatiseert en <span class="mark">AI inzet als creatieve assistent</span>.</p>
+
+        <div class="hero__aside reveal">
+          <p>Je werkt minder met de hand, produceert meer varianten en houdt toch de controle over het design.</p>
+          <a class="btn" href="#inhoud">
+            <span>Ontdek de vijf hoofdstukken</span>
+            <span class="btn__icon" aria-hidden="true">↓</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="bezel bezel--lime assignment reveal">
+        <div class="bezel__core">
+          <p class="eyebrow eyebrow--plain">Periodeopdracht</p>
+          <p class="assignment__text">Doorheen het semester werk je aan een periodeopdracht: een volledige marketingcampagne voor een product, <em>van briefing tot afgewerkte content</em>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- INHOUD -->
+    <section class="overview wrap" id="inhoud" aria-labelledby="overview-title">
+      <div class="section-head reveal">
+        <p class="eyebrow">Inhoud</p>
+        <h2 id="overview-title">Vijf hoofdstukken, <em>één campagne</em></h2>
+      </div>
+
+      <ol class="bento">
+        <li class="bento__item bento__item--wide reveal">
+          <a class="bezel tile tile--purple" href="#beeldbewerking">
+            <span class="bezel__core">
+              <span class="tile__num">01</span>
+              <span class="tile__title">Beeldbewerking: acties &amp; batch</span>
+              <span class="tile__tool" translate="no">Photoshop</span>
+              <span class="tile__arrow" aria-hidden="true">↘</span>
+            </span>
+          </a>
+        </li>
+        <li class="bento__item reveal">
+          <a class="bezel tile tile--green" href="#figma">
+            <span class="bezel__core">
+              <span class="tile__num">02</span>
+              <span class="tile__title">Social media: Figma automation</span>
+              <span class="tile__tool" translate="no">Figma Buzz</span>
+              <span class="tile__arrow" aria-hidden="true">↘</span>
+            </span>
+          </a>
+        </li>
+        <li class="bento__item reveal">
+          <a class="bezel tile tile--purple" href="#content">
+            <span class="bezel__core">
+              <span class="tile__num">03</span>
+              <span class="tile__title">Content generatie</span>
+              <span class="tile__tool" translate="no">Weave · Claude Cowork</span>
+              <span class="tile__arrow" aria-hidden="true">↘</span>
+            </span>
+          </a>
+        </li>
+        <li class="bento__item bento__item--wide reveal">
+          <a class="bezel tile tile--green" href="#vibe-coding">
+            <span class="bezel__core">
+              <span class="tile__num">04</span>
+              <span class="tile__title">Vibe coding &amp; web</span>
+              <span class="tile__tool" translate="no">Claude Code</span>
+              <span class="tile__arrow" aria-hidden="true">↘</span>
+            </span>
+          </a>
+        </li>
+        <li class="bento__item bento__item--full reveal">
+          <a class="bezel tile tile--purple" href="#email">
+            <span class="bezel__core">
+              <span class="tile__num">05</span>
+              <span class="tile__title">E-mailmarketing &amp; newsletters</span>
+              <span class="tile__tool" translate="no">MailerLite</span>
+              <span class="tile__arrow" aria-hidden="true">↘</span>
+            </span>
+          </a>
+        </li>
+      </ol>
+    </section>
+
+    <!-- 01 -->
+    <section id="beeldbewerking" class="chapter wrap chapter--purple" aria-labelledby="t1">
+      <div class="chapter__head">
+        <p class="chapter__num reveal" aria-hidden="true">01</p>
+        <p class="eyebrow reveal">Beeldbewerking</p>
+        <h2 id="t1" class="reveal">Acties <em>&amp; batch</em></h2>
+      </div>
+      <div class="chapter__body">
+        <figure class="bezel visual reveal">
+          <img src="images/01-beeldbewerking.webp" width="1200" height="896" alt="Papieren illustratie: een stapel productfoto’s waaruit kleine pijlen wegwaaieren, als beeld voor één bewerking die automatisch op een hele reeks foto’s wordt toegepast." loading="lazy" decoding="async">
+        </figure>
+        <div class="bezel reveal">
+          <div class="bezel__core">
+            <p class="first">Je neemt Photoshop-acties op die een reeks bewerkingen onthouden: resizen, achtergronden uitbreiden met generative fill, een logo plaatsen en exporteren.</p>
+            <p>Met batch-verwerking pas je die actie in één keer toe op een volledige map productfoto’s. Zo verwerk je tientallen beelden consistent, zonder ze één voor één te openen.</p>
+            <ul class="tags" aria-label="Tools en technieken">
+              <li translate="no">Photoshop</li><li>Acties</li><li>Batch</li><li>Generative fill</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 -->
+    <section id="figma" class="chapter wrap chapter--green" aria-labelledby="t2">
+      <div class="chapter__head">
+        <p class="chapter__num reveal" aria-hidden="true">02</p>
+        <p class="eyebrow reveal">Social media</p>
+        <h2 id="t2" class="reveal">Figma <em>automation</em></h2>
+      </div>
+      <div class="chapter__body">
+        <figure class="bezel visual reveal">
+          <img src="images/02-social-media.webp" width="1200" height="896" alt="Papieren illustratie: verschillende social-mediaformaten met hetzelfde ontwerp, met lijnen verbonden aan een kleine spreadsheet die ze vult." loading="lazy" decoding="async">
+        </figure>
+        <div class="bezel reveal">
+          <div class="bezel__core">
+            <p class="first">In Figma Buzz bouw je templates voor verschillende formaten, zoals Instagram-posts, stories en display-banners.</p>
+            <p>Via bulk create vul je die templates automatisch met data uit een CSV- of XLSX-bestand: titels, taglines, call-to-actions en afbeeldingen.</p>
+            <ul class="tags" aria-label="Tools en technieken">
+              <li translate="no">Figma Buzz</li><li>Templates</li><li>Bulk create</li><li>CSV &amp; XLSX</li>
+            </ul>
+          </div>
+        </div>
+        <blockquote class="pull reveal">Eén spreadsheet levert zo een volledige campagne op in alle formaten, met een consistent design.</blockquote>
+      </div>
+    </section>
+
+    <!-- 03 -->
+    <section id="content" class="chapter wrap chapter--purple" aria-labelledby="t3">
+      <div class="chapter__head">
+        <p class="chapter__num reveal" aria-hidden="true">03</p>
+        <p class="eyebrow reveal">Content generatie</p>
+        <h2 id="t3" class="reveal">Weave <em>&amp; Claude Cowork</em></h2>
+      </div>
+      <div class="chapter__body">
+        <figure class="bezel visual reveal">
+          <img src="images/03-content-generatie.jpg" width="1200" height="896" alt="Papieren illustratie: een reeks beeldkaders met zachte landschapsvormen, een filmstrook en tekstpagina’s, als beeld voor AI die beeld, video en tekst genereert." loading="lazy" decoding="async">
+        </figure>
+        <div class="bezel reveal">
+          <div class="bezel__core">
+            <p class="first">Je genereert beelden en video met AI-tools zoals Weave, en leert hoe je met goede prompts een consistente stijl bewaakt.</p>
+            <p>Met Claude Cowork laat je AI zelfstandig taken uitvoeren op je eigen bestanden: teksten schrijven, documenten opmaken en content plannen.</p>
+            <ul class="tags" aria-label="Tools en technieken">
+              <li translate="no">Weave</li><li>Prompting</li><li translate="no">Claude Cowork</li><li>Beeld &amp; video</li>
+            </ul>
+          </div>
+        </div>
+        <blockquote class="pull reveal">Je ontdekt waar AI je werk versnelt en waar je zelf moet bijsturen.</blockquote>
+      </div>
+    </section>
+
+    <!-- 04 -->
+    <section id="vibe-coding" class="chapter wrap chapter--green" aria-labelledby="t4">
+      <div class="chapter__head">
+        <p class="chapter__num reveal" aria-hidden="true">04</p>
+        <p class="eyebrow reveal">Web</p>
+        <h2 id="t4" class="reveal">Vibe coding <em>&amp; web</em></h2>
+      </div>
+      <div class="chapter__body">
+        <figure class="bezel visual reveal">
+          <img src="images/04-vibe-coding.jpg" width="1200" height="896" alt="Papieren illustratie: een browservenster dat uit gekleurde blokken wordt opgebouwd, naast een tekstballon en codehaken, als beeld voor een website bouwen door ze te beschrijven." loading="lazy" decoding="async">
+        </figure>
+        <div class="bezel reveal">
+          <div class="bezel__core">
+            <p class="first">Met Claude Code bouw je websites en tools door in gewone taal te beschrijven wat je wil.</p>
+            <p>Je breidt Claude uit met skills, en via de Figma MCP-koppeling laat je Claude ontwerpen genereren in Figma en designs omzetten naar HTML en CSS. Je bouwt zelfs je eigen Figma-plugin. Je websites zet je online met GitHub Pages.</p>
+            <ul class="tags" aria-label="Tools en technieken">
+              <li translate="no">Claude Code</li><li>Skills</li><li translate="no">Figma MCP</li><li translate="no">GitHub Pages</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 -->
+    <section id="email" class="chapter wrap chapter--purple" aria-labelledby="t5">
+      <div class="chapter__head">
+        <p class="chapter__num reveal" aria-hidden="true">05</p>
+        <p class="eyebrow reveal">E-mailmarketing</p>
+        <h2 id="t5" class="reveal">Newsletters <em>&amp; flows</em></h2>
+      </div>
+      <div class="chapter__body">
+        <figure class="bezel visual reveal">
+          <img src="images/05-e-mailmarketing.jpg" width="1200" height="896" alt="Papieren illustratie: enveloppen die in een lus met pijlen uit een paarse brievenbus vertrekken, als beeld voor een automatische reeks welkomstmails." loading="lazy" decoding="async">
+        </figure>
+        <div class="bezel reveal">
+          <div class="bezel__core">
+            <p class="first">In MailerLite bouw je inschrijvingsformulieren die je op een website plaatst, ontwerp je e-mailcampagnes en zet je automatisatieflows op.</p>
+            <p>Een nieuwe inschrijver krijgt bijvoorbeeld automatisch een reeks welkomstmails. Zo leer je hoe merken hun publiek opbouwen en blijven bereiken.</p>
+            <ul class="tags" aria-label="Tools en technieken">
+              <li translate="no">MailerLite</li><li>Formulieren</li><li>Campagnes</li><li>Automatisatie</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer wrap">
+    <p class="footer__big reveal">Minder handwerk. <em>Meer ontwerp.</em></p>
+    <div class="footer__meta">
+      <span>Creative Automation · Digitale vormgeving</span>
+      <a class="btn btn--small" href="#top">
+        <span>Terug naar boven</span>
+        <span class="btn__icon" aria-hidden="true">↑</span>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
